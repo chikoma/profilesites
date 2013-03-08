@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* ===================
+ * common.css
+ * =================== */
+
+/* text */
+
+span.text-small{
+	font-size:70%;
+}
