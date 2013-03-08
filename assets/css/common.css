@@ -4,8 +4,34 @@
  * common.css
  * =================== */
 
+@font-face {
+	font-family: 'HuiFontP';
+	src:url('../font/HuiFontP29.ttf') format('truetype');
+	}
+body{
+	font-size:16px;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
 /* text */
 
+h1,h2,h3,h4{
+	margin-bottom:10px;
+	padding:5px;
+	font-family:'HuiFontP';
+}
+h1{
+	font-size:155%;
+}
+h2{
+	font-size:140%;
+}
+h3{
+	font-size:120%;
+}
 span.text-small{
 	font-size:70%;
+}
+header div#mydata h1{
+	font-size:200%;
 }

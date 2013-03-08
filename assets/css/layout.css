@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* 共通 */
+.clearfix {zoom:1;}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+#wrapper{
+	width:960px;
+	margin:20px auto;
+}
+/* ヘッダー */
+header{
+	margin:0 20px 20px 20px;
+}
+header div.wrap{
+	padding-top:20px;
+}
+header div#myface{
+	width:320px;
+	float:left;
+}
+header div#mydata{
+	width:600px;
+	float:left;
+}
+/* フッター */
+footer{
+	margin:20px;
+}
+/* コンテンツ */
+article{
+	width:920px;
+	margin:0 20px;
+}
+article section{
+	margin-top:20px;
+	width:920px;
+	overflow:hidden;
+}
+article section div.boxwrap{
+	margin-right:-10px;
+}
+article section div.inner{
+	margin:5px;
+}
+article section#metoday{
+}
+article section#mybuddys .person{
+	width:295px;
+	margin-right:10px;
+	float:left;
+}
+article section#myrecord .record{
+	width:450px;
+	margin-right:10px;
+	float:left;
+}
+article section#contactme{
+}
+article section#mylinks{
+}

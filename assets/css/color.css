@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* #00A8C6 0,168,198
+ * #40C0CB 64,192,203
+ * #F9F2E7 249,242,231
+ * #AEE239 174,226,57
+ * #8FBE00 143,190,0  */
+body{
+	background:#fff;
+	color:#1B1F23;
+}
+div#wrapper{
+	background:rgba(238,243,204,0.2);
+	border:solid 0px 1px #03FADF;
+	-moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-o-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-ms-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+body a{
+	color:#036564;
+	text-decoration:none;
+	border-bottom:dashed 1px #036564;
+}
+
+header{
+}
+
+h1{
+	color:#62656A;
+	background:;
+	border-top:solid 1px #8897B2;
+	border-bottom:solid 1px #8897B2;
+}
+h2{
+	color:#8897B2;
+}
+
+article section div.person,
+article section div.record{
+	border:dashed 1px #62656A;
+}
+section p.note,
+ul{
+	text-decoration:underline;
+	color:#E3E3E3;
+}
+p.note span,
+li{
+	color:#1B1F23;
+}
