@@ -25,16 +25,17 @@ header div.wrap{
 	padding-top:20px;
 }
 header div#myface{
-	width:320px;
+	width:220px;
 	float:left;
 }
 header div#mydata{
-	width:600px;
+	width:700px;
 	float:left;
 }
 /* フッター */
 footer{
 	margin:20px;
+	text-align:center;
 }
 /* コンテンツ */
 article{
@@ -46,14 +47,19 @@ article section{
 	width:920px;
 	overflow:hidden;
 }
-article section div.boxwrap{
-	margin-right:-10px;
-}
-article section div.inner{
-	margin:5px;
-}
+
 article section#metoday{
 }
+article section#mybbudys{
+}
+article section#myrecord{
+}
+article section#contactme{
+}
+article section#mylinks{
+}
+
+/* 入れ子box　*/
 article section#mybuddys .person{
 	width:295px;
 	margin-right:10px;
@@ -64,7 +70,9 @@ article section#myrecord .record{
 	margin-right:10px;
 	float:left;
 }
-article section#contactme{
+article section div.boxwrap{
+	margin-right:-10px;
 }
-article section#mylinks{
+article section div.inner{
+	margin:5px;
 }
