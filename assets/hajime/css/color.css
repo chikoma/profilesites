@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* hajime color
+ * fontcolor: #595B5A
+ * #14C3A2
+ * #0DE5A8
+ * #7CF49A
+ * #B8FD99
+ * */
+body{
+	background:url(../img/bg.png);
+	color:#595B5A;
+	text-shadow:-1px -1px #fff;
+}
+div#wrapper{
+	background:#fefefe;
+	border:double 3px #14C3A2;
+	-moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-o-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	-ms-box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+body a{
+	color:#14C3A2;
+	text-decoration:none;
+	border-bottom:double 3px #0DE5A8;
+}
+
+header{
+}
+
+h1{
+	background:#14C3A2;
+	color:#595B5A;
+	border-bottom:double 3px #B8FD99;
+	border-top:double 3px #B8FD99;
+}
+h2{
+	color:#14C3A2;
+}
+
+.floatbox{
+	border:solid 1px #FFF;
+}
+section p.note,
+ul{
+}
+p.note span,
+li{
+}
